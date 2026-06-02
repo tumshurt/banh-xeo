@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Chalk;
+    src: url(fonts/Chalk.otf);
+}
+
+body {
+    background-image: url(Background/shaylabg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Chalk';
+    color:rgb(27, 24, 28)
+}
+
+h2{
+    text-align:center;
+}
+
+p{
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dearshayla:hover{
+    border: 3px solid palevioletred;
+}
+.dearshayla img{
+    width: 80%;
+    height:auto;
+}
+.dearshayla{
+    background-color: rgb(139, 7, 124);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1px;
+    border: 2px solid blueviolet;
+    width: 40vw;
+    margin: auto;
+}
+
+.description{
+    overflow: auto;
+    margin:auto;
+    width: 50vw;
+    height: 20vw
+}
+
+.fancorner:hover{
+    border: 3px solid palevioletred;
+}
+.fancorner img{
+    width: 80%;
+    height:auto;
+}
+.fancorner {
+    background-color: rgb(139, 7, 124);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1px;
+    border: 2px solid blueviolet;
+    width: 40vw;
+    margin: auto;
+    text-align:center;
+}
+.fanphotos{
+    text-align:center;
+}
+.fanphotos2{
+    text-align:center;
+}
+.fanphotos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.fanphotos2{
+    text-align:center;
+}
+.fanphotos2 img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.gone{
+    text-align:center;
+}
+.gone img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.gone2{
+    text-align:center;
+}
+.gone2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.lyrics{
+    text-align:center;
+}
+.lyrics img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.photo{
+    text-align:center;
+}
+.photos{
+    text-align:center;
+}
+.photo img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.photos img{
+    display: inline-block;
+    margin: auto;
+}
+
+.revamp{
+    text-align:center;
+}
+
+.revamp img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.shayladiary:hover{
+    border: 3px solid palevioletred;
+}
+.shayladiary img{
+    width: 80%;
+    height:auto;
+}
+.shayladiary {
+    background-color: rgb(139, 7, 124);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1px;
+    border: 2px solid blueviolet;
+    width: 40vw;
+    margin: auto;
+    text-align:center;
+}
+
+.songs{
+    text-align: center;
+}
+
+.songs img{
+    width: 10%;
+}
+
+.diarygone img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.website{
+    text-align:center;
+}
+.website img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.words{
+    text-align:center;
+}    
+.words img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}    

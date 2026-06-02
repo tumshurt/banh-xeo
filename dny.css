@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Chick;
+    src: url(fonts/CHICK___.TTF);
+    
+}
+
+@font-face {
+    font-family: Cheri;
+    src: url(fonts/CHERI___.TTF)
+}
+body {
+    background-image: url(Background/dnybg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cheri';
+    color:rgb(27, 24, 28)
+}
+
+h1 {
+    font-family: 'Chick';
+    font-size: 4em;
+}
+
+h2 {
+    text-align:center;
+}
+
+p {
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    overflow: auto;
+    margin:auto;
+    width: 50vw;
+    height: 20vw
+}
+
+.pix{
+    text-align:center;
+}
+.pix img{
+    display: inline-block;
+    width: 60%
+}
+.photos{
+    text-align:center;
+}
+.photos img{
+    display: inline-block;
+    width: 15%;
+}
+.photos2{
+    text-align:center;
+}
+
+.photos2 img{
+    display: inline-block;
+    margin: auto;
+    width: 15%
+}
+
+.songs{
+    text-align: center;
+}
+
+.songs img{
+    width: 10%;
+}
+
+.words{
+    text-align:center;
+}    
+.words img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}    

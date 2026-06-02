@@ -1,0 +1,163 @@
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+     @font-face{
+      font-family: Pixel;
+      src: url(fonts/FT88-Regular.ttf);
+    }
+
+    body {
+      font-family: 'Pixel';
+      background-image: url(Background/trishbg.png);
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: black;
+    }
+
+    a { color: blue; }
+    a:visited { color: hotpink; }
+
+    header {
+      padding: 40px 20px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+    }
+
+    header h2 {
+      background-color: aqua;
+    }
+
+    header .meta {
+      margin-top: 8px;
+      font-size: 0.9rem;
+    }
+
+    .buttons {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .grid {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+      gap: 1em;
+    }
+
+    .block {
+      border: 3px solid #ff8bf9;
+    }
+
+    .block-image {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .block-placeholder {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .block-text-content {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      padding: 12px;
+      background: black;
+      color: white;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      overflow: hidden;
+    }
+
+    .block-info { padding: 10px 12px 14px; }
+
+    .block-title {
+      font-size: 0.85rem;
+      font-weight: bold;
+      line-height: 1.3;
+      background-color: aqua;
+    }
+
+    .block-source {
+      margin-top: 4px;
+      font-size: 0.75rem;
+      background-color: aqua;
+      color: #666;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .block-description {
+      margin-top: 6px;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      background-color: #da99f5;
+      color: black;
+      font-style: italic;
+      overflow: auto;
+    }
+
+    #hk1 {background-image: url(images/HK24.gif);
+     position: fixed;
+     bottom: 0%;
+     right: 0%; 
+    }
+
+    #hk2 {background-image: url(images/kitty2.gif);
+     position: fixed;
+     top: 0px;
+     right: 0px;
+    }
+    
+    #hk3 {
+     position:fixed;
+     top: 0px;
+     left: 0px;  
+    }
+
+    .rec{
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .songs{
+    text-align: center;
+}
+
+    .songs img{
+    width: 10%;
+}
+
+    .words {
+    overflow: auto;
+    margin:auto;
+    width: auto;
+    height: 5vw;
+    background-color: #da99f5;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 24px 16px 16px; }
+      .grid {
+        padding: 8px 16px 60px;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+    }
